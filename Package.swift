@@ -9,6 +9,7 @@ let package = Package(
     .tvOS(.v9),
   ],
   products: [
+    .executable(name: "mockingbird", targets: ["Mockingbird"]),
     .library(name: "Mockingbird", targets: ["Mockingbird"]),
   ],
   targets: [
